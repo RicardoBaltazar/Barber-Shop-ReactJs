@@ -1,6 +1,9 @@
 .button {
+    width: 75%;
+    
     color: var(--color-title);
-    background-color: var(--color-button-border);
+    /*background-color: var(--color-button-border);*/
+    background: linear-gradient(to right, #4998fd, #A2BDF7);
 
     font-family: 'roboto', sans-serif;
     font-size: 1.1rem;
@@ -9,7 +12,14 @@
     padding: 15px 20px;
 
     border: 0;
-    border-radius: 10   px;
+    border-radius: 10px;
 
-    margin-top: 3rem ;
+    margin-top: 2.7rem ;
+
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background: #4998fd;
 }
