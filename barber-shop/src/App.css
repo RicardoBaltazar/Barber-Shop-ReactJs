@@ -2,21 +2,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: 0;
 }
 
 body {
-  
-  background: url('./assets/background.jpg') no-repeat;
-  background-position: center bottom;
-  background-size: 100%;
+  background: linear-gradient(to right, #4b10b6, #8a22f0);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .App {
-  width: 100vw;
+  width: 90vw;
   height: 100vh;
-  /*background: linear-gradient(to bottom, #333131, #000);*/
-  background-color: #333131;
-  opacity: 0.8;
+  margin: 0 auto;
   
+  
+}
+
+@media(min-width: 700px){
+  .App {
+    background: url('./assets/undraw_barber_3uel.svg') no-repeat;
+    background-position: 90% 50%;
+    background-size: 50%;
+  }
 }
 

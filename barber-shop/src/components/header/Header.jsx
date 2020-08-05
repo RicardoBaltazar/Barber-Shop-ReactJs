@@ -1,11 +1,16 @@
 import React from 'react'
 import './header.css'
 
+const Logo = require('../../assets/logotipoBarberShop.png')
+
 export default function Header() {
     return (
         <header className='header'>
-            <h1>asdasdasd</h1>
-            <h1>asdfd6df54d65f4d6</h1>
+            <img src={Logo} alt="Logotipo Barber Shop" className='logotipo'/>
+            <nav className='nav'>
+                <a href="/">Sobre</a>
+                <a href="">Contato</a>
+            </nav>
         </header>
     )
 }

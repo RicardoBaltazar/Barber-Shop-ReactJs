@@ -1,5 +1,33 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: white;
+    padding-top: 10px;
+    
+}
+
+.logotipo {
+    width: 12rem;
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.header a{
+    font-size: 1.1rem;
+    color: #fff;
+    padding: 12px 40px;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    border: 2px solid  #A2BDF7 ;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.header a:hover{
+    background-color: #95b3f5;
 }
