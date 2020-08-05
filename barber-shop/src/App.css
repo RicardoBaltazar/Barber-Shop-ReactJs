@@ -23,11 +23,11 @@ body {
   
 }
 
-@media(min-width: 700px){
+@media(min-width: 769px){
   .App {
     background: url('./assets/undraw_barber_3uel.svg') no-repeat;
-    background-position: 95% 60%;
-    background-size: 50%;
+    background-position: 100% 52%;
+    background-size: 55%;
   }
 }
 

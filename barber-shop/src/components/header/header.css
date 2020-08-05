@@ -4,12 +4,11 @@
     align-items: center;
     color: white;
     padding-top: 10px;
-    
 }
 
-.logotipo {
+.logotipe {
     width: 13rem;
-    padding: 20px;
+    padding: 20px;  
 }
 
 .nav {
@@ -18,7 +17,7 @@
 }
 
 .header a{
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: 'roboto';
 
     color: #fff;
@@ -32,4 +31,19 @@
 
 .header a:hover{
     background-color: #95b3f5;
+}
+
+
+@media(max-width: 426px){
+    .header {
+        justify-content: center;
+    }
+
+    .logotipe{
+        
+    }
+
+    .header a {
+        display: none;
+    }
 }
