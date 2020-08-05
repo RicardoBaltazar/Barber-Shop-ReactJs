@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+  background: url('./assets/background.jpg') no-repeat;
+  background-position: center bottom;
+  background-size: 100%;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  /*background: linear-gradient(to bottom, #333131, #000);*/
+  background-color: #333131;
+  opacity: 0.8;
+  
+}
+
