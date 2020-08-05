@@ -1,3 +1,8 @@
+:root{
+  --color-text: #f9f9f9;
+  --color-button-border: #A2BDF7;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +26,7 @@ body {
 @media(min-width: 700px){
   .App {
     background: url('./assets/undraw_barber_3uel.svg') no-repeat;
-    background-position: 90% 50%;
+    background-position: 95% 60%;
     background-size: 50%;
   }
 }

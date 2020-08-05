@@ -1,0 +1,26 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+
+    margin-left: 5rem;
+    justify-content: center;
+    height: 325px;
+    color: #f9f9f9;
+}
+
+.about h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+    line-height: 4rem;
+    font-stretch: expanded;
+
+}
+
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+
+    font-family: 'roboto';
+
+}

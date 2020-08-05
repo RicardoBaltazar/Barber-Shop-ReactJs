@@ -8,7 +8,7 @@
 }
 
 .logotipo {
-    width: 12rem;
+    width: 13rem;
     padding: 20px;
 }
 
@@ -19,6 +19,8 @@
 
 .header a{
     font-size: 1.1rem;
+    font-family: 'roboto';
+
     color: #fff;
     padding: 12px 40px;
     margin-left: 1.5rem;
