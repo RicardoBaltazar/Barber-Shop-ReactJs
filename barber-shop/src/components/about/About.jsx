@@ -11,10 +11,11 @@ export default function About() {
                 <p>The barber shop is an exclusive New York barbershop that offers men's
                 haircuts by professionally licensed barbers in the state of New York.
             </p>
-            <Button>
+            <Button href='#scheduling' className='button'>
                 MAKE AN APPOINTMENT
             </Button>
-            <a className='button-contact-mobile' href='#/form'>CONTACT</a>
+    {/*<a className='button-contact-mobile' href='#/form'>CONTACT</a>*/}
+            <Button className='button-contact-mobile' href='#/form'>CONTACT</Button>
             </main>
         </>
     )

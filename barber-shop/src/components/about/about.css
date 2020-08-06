@@ -3,7 +3,7 @@
     flex-direction: column;
     max-width: 375px;
 
-    margin-left: 5rem;
+    margin-left: 3.2rem;
     justify-content: center;
     height: 420px;
     color: #f9f9f9;
@@ -11,7 +11,7 @@
 
 .about h1 {
     font-size: 3rem;
-    margin: 20px 0;
+    margin: 15px 0;
     line-height: 4rem;
     font-stretch: expanded;
 }
