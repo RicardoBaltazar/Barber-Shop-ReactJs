@@ -23,17 +23,41 @@
     font-family: 'roboto';
 }
 
-
+.button-contact-mobile {
+    display: none;
+}
 
 @media(max-width: 768px){
     .about {
         width: 100%;
         text-align: center;
-        margin: 3rem auto;
-        padding-bottom: 25px;
+        margin: 5rem auto;
+        padding-bottom: 15px;
     }
 
     .about h1 {
         font-size: 4rem;
     }
+
+    .button-contact-mobile {
+        display: block;
+
+        color: var(--color-title);
+        /*background-color: var(--color-button-border);*/
+        background: linear-gradient(to right, #4998fd, #A2BDF7);
+    
+        font-family: 'roboto', sans-serif;
+        font-size: 1.1rem;
+        font-weight: bold;
+    
+        padding: 20px 20px;
+    
+        border: 0;
+        border-radius: 10px;
+    
+        margin-top: 1.2rem ;
+        margin-bottom: 2rem;
+    
+        cursor: pointer;
+    }   
 }

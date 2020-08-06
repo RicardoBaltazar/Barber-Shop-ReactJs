@@ -9,7 +9,7 @@ export default function Header() {
             <img src={Logo} alt="Logotipo Barber Shop" className='logotipe'/>
             <nav className='nav'>
                 <a href="/">HOME</a>
-                <a href="">CONTACT</a>
+                <a className='link-contact' href="">CONTACT</a>
             </nav>
         </header>
     )
