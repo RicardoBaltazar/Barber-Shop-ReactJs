@@ -59,5 +59,7 @@
         margin-bottom: 2rem;
     
         cursor: pointer;
+
+        text-decoration: none;
     }   
 }

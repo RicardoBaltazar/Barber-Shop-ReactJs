@@ -4,8 +4,8 @@ import './button.css'
 
 export default function Button (props) {
     return (
-        <button className='button'>
+        <a className='button' href='#/scheduling'>
             {props.children}
-        </button>
+        </a>
     )
 }

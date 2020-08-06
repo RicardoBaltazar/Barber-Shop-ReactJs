@@ -8,8 +8,8 @@ export default function Header() {
         <header className='header'>
             <img src={Logo} alt="Logotipo Barber Shop" className='logotipe'/>
             <nav className='nav'>
-                <a href="/">HOME</a>
-                <a className='link-contact' href="">CONTACT</a>
+                <a href="#/about">HOME</a>
+                <a className='link-contact' href="#/form">CONTACT</a>
             </nav>
         </header>
     )

@@ -14,7 +14,7 @@ export default function About() {
             <Button>
                 MAKE AN APPOINTMENT
             </Button>
-            <button className='button-contact-mobile'>CONTACT</button>
+            <a className='button-contact-mobile' href='#/form'>CONTACT</a>
             </main>
         </>
     )
