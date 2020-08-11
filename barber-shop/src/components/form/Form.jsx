@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './form.css'
+import { Link } from 'react-router-dom'
 import axios from 'axios'
 
 const url = 'http://localhost:8000/posts'
@@ -66,7 +67,7 @@ class Form extends Component {
     render() {
         return (
             <form className='form' onSubmit={this.handleSubmit}>
-                <a href="/" className='linkBackHome'> {'< Home'} </a>
+                <Link to="/" className='linkBackHome'> {'< Home'} </Link>
 
                 <h3>send us a message!</h3>
 
