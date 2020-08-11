@@ -62,6 +62,38 @@
     text-decoration: none;
 }
 
-.form button:hover {
+.formAgend button:hover {
     background: #4998fd;
+}
+
+@media(max-width: 769px) {
+    .formAgend {
+        margin-left: 25%;
+    }
+
+    .linkBackHome {
+        display: block;
+    }
+
+    .formAgend button {
+        width: 100%;
+    }
+}
+
+@media(max-width: 426px){
+    .formAgend {
+        margin-left: auto;
+    }
+}
+
+@media(max-width: 376px){
+    .formAgend {
+        width: 325px;
+    }
+}
+
+@media(max-width: 321px){
+    .formAgend {
+        width: 290px;
+    }
 }

@@ -4,8 +4,8 @@ import "./scheduling.css"
 export default function Scheduling() {
     return (
         <>
-        <a href="/" className='linkBackHome'> {'< Home'} </a>
         <form className='formAgend' action="" method="post">
+        <a href="/" className='linkBackHome'> {'< Home'} </a>
         <h1>Agendamento</h1>
             <label htmlFor="">Name</label>
             <input type="text" placeholder='name'/>
@@ -16,7 +16,7 @@ export default function Scheduling() {
             <label htmlFor="">Hour</label>
             <input type="time" name="" id=""/>
 
-            <button type='submit'> SUBMIT </button>
+            <button type='submit'> SEND </button>
         </form>
         </>
     )

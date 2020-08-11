@@ -83,7 +83,7 @@ class Form extends Component {
 
                 </textarea>
 
-                <button type='submit'> SUBMIT </button>
+                <button type='submit'> SEND </button>
             </form>
         );
     }
