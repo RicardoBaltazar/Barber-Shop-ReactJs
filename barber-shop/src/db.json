@@ -1,26 +1,15 @@
 {
-  "posts": [
+  "messages": [
     {
-      "name": "aasd",
+      "Name": "asd",
+      "email": "a@a",
+      "message": "asdasdascsdvds",
       "id": 1
-    },
-    {
-      "Name": "asd",
-      "email": "e@e",
-      "message": "bcvbcvbcvb",
-      "id": 2
-    },
-    {
-      "Name": "",
-      "email": "",
-      "message": "",
-      "id": 3
-    },
-    {
-      "Name": "asd",
-      "date": "2020-08-01",
-      "hour": "",
-      "id": 4
     }
-  ]
+  ],
+  "agend": {
+    "Name": "ffff",
+    "date": "2020-08-22",
+    "hour": "22:48"
+  }
 }

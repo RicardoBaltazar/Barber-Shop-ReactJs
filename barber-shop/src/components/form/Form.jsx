@@ -3,7 +3,7 @@ import './form.css'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 
-const url = 'http://localhost:8000/posts'
+const url = 'http://localhost:8000/messages'
 
 class Form extends Component {
     constructor(props) {
@@ -55,10 +55,10 @@ class Form extends Component {
             message: message
           })
           .then(function (response) {
-            alert('post');
+            console.log(response);
           })
           .catch(function (error) {
-            alert('error');
+            console.log(error);
           });
 
         event.preventDefault();

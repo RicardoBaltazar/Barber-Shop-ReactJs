@@ -3,7 +3,7 @@ import "./scheduling.css"
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 
-const urlAgend = 'http://localhost:8000/posts'
+const urlAgend = 'http://localhost:8000/agend'
 
 class Scheduling extends Component {
 
