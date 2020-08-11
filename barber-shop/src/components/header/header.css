@@ -20,7 +20,6 @@
 .header a{
     font-size: 1.1rem;
     font-family: 'roboto';
-
     color: #fff;
     padding: 12px 35px;
     text-decoration: none;
@@ -30,7 +29,6 @@
 
 .header a:hover{
     background-color: #95b3f5;
-    
 }
 
 
