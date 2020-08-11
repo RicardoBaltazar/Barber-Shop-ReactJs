@@ -53,10 +53,10 @@ class Scheduling extends Component {
             hour: hour
           })
           .then(function (response) {
-            alert('post');
+            console.log(response)
           })
           .catch(function (error) {
-            alert('error');
+            console.log(error);
           });
 
         event.preventDefault();
