@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import './form.css'
+import axios from 'axios'
+
+const url = 'http://localhost:8000/posts'
 
 class Form extends Component {
     constructor(props) {
@@ -36,6 +39,27 @@ class Form extends Component {
 
     handleSubmit(event) {
         alert(this.state.name + ' ' + this.state.email + ' ' + this.state.message);
+
+        const name = this.state.name
+        const email = this.state.email
+        const message = this.state.message
+        /*
+        axios.post(url, { name})
+        .then(response => alert('post'))
+        */
+
+        axios.post(url, {
+            Name: name,
+            email: email,
+            message: message
+          })
+          .then(function (response) {
+            alert('post');
+          })
+          .catch(function (error) {
+            alert('error');
+          });
+
         event.preventDefault();
     }
 
