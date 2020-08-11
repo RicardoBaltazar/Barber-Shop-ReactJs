@@ -1,0 +1,67 @@
+.formAgend{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex:1;
+    
+
+    width: 375px;
+    height: 420px;
+
+    color: #f9f9f9;
+
+    margin-left: 3.2rem;
+}
+
+.linkBackHome {
+    font-size: 1.2rem;
+    color: #f9f9f9;
+    margin-bottom: 15px;
+    text-decoration: none;
+    display: none;
+}
+
+.formAgend h3{
+    font-weight: 700;
+}
+
+.formAgend label {
+    font-family: 'roboto', sans-serif;
+    margin: .8rem 0;
+}
+
+.formAgend input {
+    background-color: #f9f9f9;
+    border: 0;
+    font-size: 1rem;
+
+    padding: .7rem;
+}
+.formAgend button {
+    width: 75%;
+    
+    color: var(--color-title);
+    /*background-color: var(--color-button-border);*/
+    background: linear-gradient(to right, #4998fd, #A2BDF7);
+
+    font-family: 'roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+    text-align: center;
+
+    padding: 15px 20px;
+
+    border: 0;
+    border-radius: 10px;
+
+    margin-top: 2rem ;
+
+    cursor: pointer;
+
+    text-decoration: none;
+}
+
+.form button:hover {
+    background: #4998fd;
+}
