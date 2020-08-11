@@ -32,6 +32,10 @@
     padding: .7rem;
 }
 
+.form textarea {
+    font-size: 1rem;
+}
+
 .form button {
     width: 75%;
     
