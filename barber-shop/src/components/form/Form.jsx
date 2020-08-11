@@ -6,10 +6,13 @@ class Form extends Component {
         super(props);
         this.state = { 
             name: '', 
-            email: ''
+            email: '',
+            message: ''
         };
 
         this.handleChange = this.handleChange.bind(this);
+        this.handleChangeEmail = this.handleChangeEmail.bind(this)
+        this.handleChangeMessage = this.handleChangeMessage.bind(this)
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
@@ -19,8 +22,20 @@ class Form extends Component {
         });
     }
 
+    handleChangeEmail(event) {
+        this.setState({ 
+            email: event.target.value
+        });
+    }
+
+    handleChangeMessage(event){
+        this.setState({
+            message: event.target.value
+        })
+    }
+
     handleSubmit(event) {
-        alert(this.state.name);
+        alert(this.state.name + ' ' + this.state.email + ' ' + this.state.message);
         event.preventDefault();
     }
 
@@ -30,10 +45,17 @@ class Form extends Component {
                 <h3>send us a message!</h3>
 
                 <label htmlFor="">Name</label>
-                <input type="text" value={this.state.value} onChange={this.handleChange} />
+                <input type="text" value={this.state.name} onChange={this.handleChange} />
 
                 <label htmlFor="">Email</label>
-                <input type="email" name="" id="" value={this.state.value} onChange={this.handleChange}/>
+                <input type="email" name="" id="" value={this.state.email} onChange={this.handleChangeEmail}/>
+
+                <label htmlFor="">Message</label>
+                <textarea className='textarea' name="" id="" cols="10" rows="5" value={this.state.message}
+                onChange={this.handleChangeMessage}
+                >
+
+                </textarea>
 
                 <button type='submit'> SUBMIT </button>
             </form>
