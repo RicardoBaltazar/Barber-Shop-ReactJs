@@ -3,7 +3,7 @@ import './form.css'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 
-const url = 'http://localhost:8000/messages'
+const url = 'https://barber-shop-project.herokuapp.com/messages'
 
 class Form extends Component {
     constructor(props) {
@@ -56,7 +56,6 @@ class Form extends Component {
           })
           .then(function (response) {
             console.log(response);
-
             
           })
           .catch(function (error) {
