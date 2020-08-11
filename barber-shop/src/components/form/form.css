@@ -15,6 +15,14 @@
 
 }
 
+.linkBackHome {
+    font-size: 1.2rem;
+    color: #f9f9f9;
+    margin-bottom: 15px;
+    text-decoration: none;
+    display: none;
+}
+
 .form h3{
     font-weight: 700;
 }
@@ -63,5 +71,36 @@
 
 .form button:hover {
     background: #4998fd;
+}
 
+@media(max-width: 769px) {
+    .form {
+        margin-left: 25%;
+    }
+
+    .linkBackHome {
+        display: block;
+    }
+
+    .form button {
+        width: 100%;
+    }
+}
+
+@media(max-width: 426px){
+    .form {
+        margin-left: auto;
+    }
+}
+
+@media(max-width: 376px){
+    .form {
+        width: 325px;
+    }
+}
+
+@media(max-width: 321px){
+    .form {
+        width: 290px;
+    }
 }

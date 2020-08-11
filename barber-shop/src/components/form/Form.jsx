@@ -38,7 +38,7 @@ class Form extends Component {
     }
 
     handleSubmit(event) {
-        alert(this.state.name + ' ' + this.state.email + ' ' + this.state.message);
+        alert("Mensagem Enviada!");
 
         const name = this.state.name
         const email = this.state.email
@@ -66,6 +66,8 @@ class Form extends Component {
     render() {
         return (
             <form className='form' onSubmit={this.handleSubmit}>
+                <a href="/" className='linkBackHome'> {'< Home'} </a>
+
                 <h3>send us a message!</h3>
 
                 <label htmlFor="">Name</label>
@@ -88,41 +90,3 @@ class Form extends Component {
 }
 
 export default Form
-
-
-
-
-/*
-import React, { useState } from 'react'
-import './form.css'
-
-
-export default function Form(props) {
-
-    const [valor, setValor] = useState('ola')
-
-    function handleMessage(e) {
-        setValor(e.target.value)
-        alert(valor)
-        alert(setValor)
-    }
-
-    return (
-        <>
-            <form action="#" className='form'>
-                <h3>send us a message!</h3>
-                <label htmlFor="">Name</label>
-                <input type="text" name="" id="" value=''/>
-
-                <label htmlFor="">Email</label>
-                <input type="email" name="" id="" />
-
-                <label htmlFor="">Message</label>
-                <textarea className='textarea' name="" id="" cols="10" rows="5"></textarea>
-
-                <button type='submit' onClick={handleMessage}> SUBMIT </button>
-            </form>
-        </>
-    )
-}
-*/
