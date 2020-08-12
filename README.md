@@ -1,6 +1,6 @@
 <h1 align="center">Barber Shop</h1>  
   
-Projeto [Link](https://barber-shop-react-js.vercel.app/#/about)  
+### Projeto [Link](https://barber-shop-react-js.vercel.app/#/about)  
   
 ![barber-shop](https://user-images.githubusercontent.com/56805229/90039111-96b9f680-dc9c-11ea-9e3c-eb2140fe9598.png)  
   
