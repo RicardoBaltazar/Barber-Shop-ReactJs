@@ -2,8 +2,10 @@
   
 ### Projeto [Link](https://barber-shop-react-js.vercel.app/#/about)  
   
-![barber-shop](https://user-images.githubusercontent.com/56805229/90039111-96b9f680-dc9c-11ea-9e3c-eb2140fe9598.png)  
-  
+Imagem             |  gif
+:-------------------------:|:-------------------------:
+![barber-shop](https://user-images.githubusercontent.com/56805229/90039111-96b9f680-dc9c-11ea-9e3c-eb2140fe9598.png)   |  ![barber-shop1](https://user-images.githubusercontent.com/56805229/90042075-8efc5100-dca0-11ea-8a66-2c7c163c1f31.gif)  
+    
 O Barber Shop é uma aplicação web onde os clientes podem agendar horarios para serem atendidos na barbearia. 
   
 ### Features
@@ -21,7 +23,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [ReactJs](https://pt-br.reactjs.org/docs/getting-started.html)  
 - [Json Server](https://www.npmjs.com/package/json-server)  
   
-![barber-shop1](https://user-images.githubusercontent.com/56805229/90042075-8efc5100-dca0-11ea-8a66-2c7c163c1f31.gif)  
 ![barber-shop-responsive](https://user-images.githubusercontent.com/56805229/90041220-62940500-dc9f-11ea-8b19-ac324656557f.gif)  
   
 ### API  
