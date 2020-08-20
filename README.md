@@ -22,7 +22,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Json Server](https://www.npmjs.com/package/json-server)  
   
 ![barber-shop1](https://user-images.githubusercontent.com/56805229/90042075-8efc5100-dca0-11ea-8a66-2c7c163c1f31.gif)  
-![barber-shop-responsive](https://user-images.githubusercontent.com/56805229/90041220-62940500-dc9f-11ea-8b19-ac324656557f.gif){ width: 200px; }  
+![barber-shop-responsive](https://user-images.githubusercontent.com/56805229/90041220-62940500-dc9f-11ea-8b19-ac324656557f.gif)  
   
 ### API  
 Este projeto utiliza uma Api criada com json Server para guardar e manipular os dados cadastrados.  
