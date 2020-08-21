@@ -1,5 +1,14 @@
 <h1 align="center">Barber Shop</h1>  
   
+<p align="center">
+ <a href="#objetivo">Objetivo</a> •
+ <a href="#roadmap">Roadmap</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#contribuicao">Contribuição</a> • 
+ <a href="#licenc-a">Licença</a> • 
+ <a href="#autor">Autor</a>
+</p>  
+  
 ### Projeto [Link](https://barber-shop-react-js.vercel.app/#/about)  
   
 ![barber-shop](https://user-images.githubusercontent.com/56805229/90039111-96b9f680-dc9c-11ea-9e3c-eb2140fe9598.png)  
