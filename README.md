@@ -11,9 +11,8 @@
   
 ![barber-shop](https://user-images.githubusercontent.com/56805229/90039111-96b9f680-dc9c-11ea-9e3c-eb2140fe9598.png)  
       
+### Sobre
 O Barber Shop é uma aplicação web onde os clientes podem agendar horarios para serem atendidos na barbearia. 
-  
-### Features
 
 - Envio de menssagem para a barbeaira  
 - Agendamento de horários para atendimento    
