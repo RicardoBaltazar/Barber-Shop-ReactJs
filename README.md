@@ -1,9 +1,9 @@
 <h1 align="center">Barber Shop</h1>  
   
 <p align="center">
- <a href="##Sobre">Objetivo</a> •
+ <a href="##Sobre">Sobre</a> •
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="##Como Executar">Contribuição</a> • 
+ <a href="##Como Executar">Como Executar</a> • 
  <a href="#licenc-a">Licença</a> • 
 </p>  
   
